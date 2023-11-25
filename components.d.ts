@@ -9,7 +9,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     AButton: typeof import('ant-design-vue/es')['Button']
     ASpace: typeof import('ant-design-vue/es')['Space']
-    HelloWord: typeof import('./src/components/HelloWord.vue')['default']
+    HelloWord: typeof import('./src/components/helloWord.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

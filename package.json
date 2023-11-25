@@ -1,5 +1,5 @@
 {
-  "name": "web-admin",
+  "name": "web-admin-template-antd",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,7 +13,7 @@
     "ant-design-vue": "^4.0.7",
     "pinia": "^2.1.7",
     "vue": "^3.3.8",
-    "vue-router": "4"
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.23.3",

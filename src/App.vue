@@ -1,10 +1,8 @@
-<script setup lang="ts">
-import HelloWord from './components/HelloWord.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
-    <HelloWord></HelloWord>
+    <router-view></router-view>
   </div>
 </template>
 

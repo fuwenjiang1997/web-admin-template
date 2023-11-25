@@ -1,4 +1,16 @@
 <template>
-  <div class="w-80 mt-20 mx-auto">欢迎使用该模版</div>
+  <div>
+    <h2>欢迎使用该模版</h2>
+    <div>{{ count }}</div>
+    <a-button class="mt-10" type="primary" @click="appStore.increment()"
+      >+1</a-button
+    >
+  </div>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { storeToRefs } from 'pinia'
+import { useAppStore } from '@/store/app'
+
+const appStore = useAppStore()
+const { count } = storeToRefs(appStore)
+</script>
